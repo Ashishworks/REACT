@@ -1,9 +1,10 @@
 import "./app.css"
-import Product from "./product.jsx"
+import ProductTab from "./productTab.jsx"
+import Msgbox from "./msgbox.jsx"
 function App() {
   return <>
-  <h1>Hello World <button>Welcome</button></h1>
-  <Product/>
+  <ProductTab/>
+  <Msgbox/>
   </>
 }
 export default App
