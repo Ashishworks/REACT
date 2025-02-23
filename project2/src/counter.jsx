@@ -10,7 +10,7 @@ function Counter(){
     return(
         <>
         <button onClick={IncCount}>CLICK HERE</button>
-        <p>{count}</p>
+        <p style={{color: "red"}}>{count}</p>
         </>
     )
 }

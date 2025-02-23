@@ -4,11 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from "./counter.jsx"
 import Like from "./like.jsx"
+import LudoBoard from './ludo.jsx'
 
 function App() {
-  return(
-  // <Counter/>
-  <Like/>
+  return (
+    // <Counter/>
+    <div>
+      {/* <Counter />
+      <Like /> */}
+      <LudoBoard/>
+    </div>
   )
 }
 
