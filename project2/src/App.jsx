@@ -5,16 +5,16 @@ import './App.css'
 import Counter from "./counter.jsx"
 import Like from "./like.jsx"
 import LudoBoard from './ludo.jsx'
+import ToDoList from './toDoList.jsx'
 
 function App() {
   return (
     // <Counter/>
-    <div>
-      {/* <Counter />
-      <Like /> */}
-      <LudoBoard/>
-    </div>
-  )
+      /* <Counter />
+      <Like /> */
+      // <LudoBoard/>
+      <ToDoList/>
+      )
 }
 
 export default App
