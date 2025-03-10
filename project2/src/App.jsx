@@ -6,6 +6,7 @@ import Counter from "./counter.jsx"
 import Like from "./like.jsx"
 import LudoBoard from './ludo.jsx'
 import ToDoList from './toDoList.jsx'
+import Lottery from './lottery.jsx'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       /* <Counter />
       <Like /> */
       // <LudoBoard/>
-      <ToDoList/>
+      // <ToDoList/>
+      <Lottery/>
       )
 }
 
