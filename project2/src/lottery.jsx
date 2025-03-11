@@ -3,9 +3,10 @@ import { genRandom,sum } from "./help"
 import TicketNum from "./ticketnum"
 import "./ticket.css"
 
-export default function Lottery({n=3,winningSum=15}) {
+export default function Lottery({n,c}) {
     let [ticket, setticket] = useState(genRandom(n));
-    let won=sum(ticket)===winningSum;
+    // let won=sum(ticket)===winningSum; in case we dont pass condition function as argument/props
+    let won=c(ticket);
     let newTicket=()=>{
         setticket(genRandom(n))
     }

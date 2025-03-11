@@ -10,8 +10,12 @@ import Lottery0 from './lottery0.jsx'
 import Num from './num.jsx'
 import TicketNum from './ticketnum.jsx'
 import Lottery from './lottery.jsx'
+import { sum } from './help.js'
 
 function App() {
+  let winCondition=(ticket)=>{
+    return sum(ticket)===15;
+  };
   return (
     // <Counter/>
       /* <Counter />
@@ -23,7 +27,7 @@ function App() {
         <h1>Lottery</h1>
       {/* <TicketNum arr={[1,2,3]}/>
       <TicketNum arr={[1,2,3,4,5]}/> */}
-      <Lottery n={4} winningSum={100}/>
+      <Lottery n={3} c={winCondition}/>
       </div>
       )
 }
