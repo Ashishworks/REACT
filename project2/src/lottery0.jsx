@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { genRandom,sum } from "./help"
 import "./ticket.css"
-export default function Lottery() {
+export default function Lottery0() {
     let [ticket, setticket] = useState(genRandom(3));
     let won=sum(ticket)===15;
     let newTicket=()=>{

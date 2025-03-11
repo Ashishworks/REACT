@@ -6,7 +6,9 @@ import Counter from "./counter.jsx"
 import Like from "./like.jsx"
 import LudoBoard from './ludo.jsx'
 import ToDoList from './toDoList.jsx'
-import Lottery from './lottery.jsx'
+import Lottery0 from './lottery0.jsx'
+import Num from './num.jsx'
+import TicketNum from './ticketnum.jsx'
 
 function App() {
   return (
@@ -15,7 +17,12 @@ function App() {
       <Like /> */
       // <LudoBoard/>
       // <ToDoList/>
-      <Lottery/>
+      // <Lottery0/>
+      <div>
+        <h1>Lottery</h1>
+      <TicketNum arr={[1,2,3]}/>
+      <TicketNum arr={[1,2,3,4,5]}/>
+      </div>
       )
 }
 
