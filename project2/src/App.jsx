@@ -11,11 +11,12 @@ import Num from './num.jsx'
 import TicketNum from './ticketnum.jsx'
 import Lottery from './lottery.jsx'
 import { sum } from './help.js'
+import Form from './forms.jsx'
 
 function App() {
-  let winCondition=(ticket)=>{
-    return sum(ticket)===15;
-  };
+  // let winCondition=(ticket)=>{
+  //   return sum(ticket)===15;
+  // };
   return (
     // <Counter/>
       /* <Counter />
@@ -23,12 +24,13 @@ function App() {
       // <LudoBoard/>
       // <ToDoList/>
       // <Lottery0/>
-      <div>
-        <h1>Lottery</h1>
-      {/* <TicketNum arr={[1,2,3]}/>
-      <TicketNum arr={[1,2,3,4,5]}/> */}
-      <Lottery n={3} c={winCondition}/>
-      </div>
+      // <div>
+      //   <h1>Lottery</h1>
+      // {/* <TicketNum arr={[1,2,3]}/>
+      // <TicketNum arr={[1,2,3,4,5]}/> */}
+      // <Lottery n={3} c={winCondition}/>
+      // </div>
+      <Form/>
       )
 }
 
