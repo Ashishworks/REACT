@@ -12,6 +12,8 @@ import TicketNum from './ticketnum.jsx'
 import Lottery from './lottery.jsx'
 import { sum } from './help.js'
 import Form from './forms.jsx'
+import FormObj from './formobj.jsx'
+import Comments from './comments.jsx'
 
 function App() {
   // let winCondition=(ticket)=>{
@@ -30,7 +32,9 @@ function App() {
       // <TicketNum arr={[1,2,3,4,5]}/> */}
       // <Lottery n={3} c={winCondition}/>
       // </div>
-      <Form/>
+      // <Form/>
+      // <FormObj/>
+      <Comments/>
       )
 }
 
