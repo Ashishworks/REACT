@@ -14,6 +14,7 @@ import { sum } from './help.js'
 import Form from './forms.jsx'
 import FormObj from './formobj.jsx'
 import Comments from './comments.jsx'
+import Comment from './comment.jsx'
 
 function App() {
   // let winCondition=(ticket)=>{
@@ -34,7 +35,8 @@ function App() {
       // </div>
       // <Form/>
       // <FormObj/>
-      <Comments/>
+      // <Comments/>
+      <Comment/>
       )
 }
 

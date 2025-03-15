@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function Comments() {
+export default function Comments({addComment}) {
     let [changes, setchanges] = useState({
         username: "",
         remarks: "",
@@ -14,6 +14,7 @@ export default function Comments() {
     let submit = (event) => {
         event.preventDefault()
         console.log(changes);
+        addComment(changes);
         setchanges({
             username: "",
             remarks: "",
