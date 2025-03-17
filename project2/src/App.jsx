@@ -15,6 +15,7 @@ import Form from './forms.jsx'
 import FormObj from './formobj.jsx'
 import Comments from './comments.jsx'
 import Comment from './comment.jsx'
+import Joker from './joker.jsx'
 
 function App() {
   // let winCondition=(ticket)=>{
@@ -36,7 +37,8 @@ function App() {
       // <Form/>
       // <FormObj/>
       // <Comments/>
-      <Comment/>
+      // <Comment/>
+      <Joker/>
       )
 }
 
